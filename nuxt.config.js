@@ -2,7 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: 'https://kaku3.github.io/erm-viewer/dist/'
+    base: '/erm-viewer/dist/'
   }
 } : {}
 
