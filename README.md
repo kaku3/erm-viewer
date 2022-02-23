@@ -19,6 +19,17 @@ node 16.13.2
 yarn 1.22.4
 ```
 
+## 実行
+
+```
+# インストール
+yarn install
+# 実行
+yarn dev
+```
+
+http://localhost:3000 にアクセス
+
 
 ## コンセプト
 
