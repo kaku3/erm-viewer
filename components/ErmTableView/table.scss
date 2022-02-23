@@ -1,0 +1,67 @@
+::v-deep td.text-start {
+  cursor: pointer;
+  font-size: 8pt!important;
+  height: 16px!important;
+}
+
+::v-deep .v-data-table table thead {
+  background-color: #eee;
+
+  tr {
+    .table__logical-name {
+      width: 16rem;
+    }
+    .table__physical-name {
+      width: 16rem;
+    }
+    .table__description {
+    }
+    .table__constranit {
+      width: 8rem;
+    }
+  }
+}
+
+.db-table-columns {
+  margin-bottom: .5rem;
+}
+
+::v-deep tr.v-data-table__expanded.v-data-table__expanded__content {
+  background-color: #eee;
+  box-shadow: none!important;
+
+  > td {
+    padding-right: 0;
+
+    table thead {
+      background-color: #ddd;
+      tr {
+        .column__logical-name {
+          width: 12rem;
+        }
+        .column__physical-name {
+          width: 12rem;
+        }
+        .column__type {
+          width: 5rem;
+        }
+        .column__length {
+          width: 5rem;
+        }
+        // PK, NN, UK, AI
+        .column__primary-key,
+        .column__not-null,
+        .column__unique-key,
+        .column__auto-increment {
+          width: 2rem;
+        }
+        .column__foreign-key {
+          width: 16rem;
+        }
+        .column__default-value {
+          width: 8rem;
+        }
+      }
+    }
+  }
+}
