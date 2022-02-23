@@ -1,9 +1,6 @@
 # erm-viewer
 **インタラクティブ** ER図 / テーブル定義書です。
 
-[demo](https://kaku3.github.io/erm-viewer/dist)
-(ER Master で作成された erm ファイルを指定してください)
-
 ER図やスキーマ作成は[ER Master](http://ermaster.sourceforge.net/index_ja.html) を用いて行うとよいのですが、png 出力されたER図や、Excel の大量のシートに定義されたテーブル定義から目的のテーブルやカラムを見つけるのは大変だったので、検索機能や参照機能に特化したビュワーを作成しました。
 
 ## 使用上の注意
