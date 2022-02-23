@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.12.3",
-    "cross-env": "^7.0.3",
-    "push-dir": "^0.4.1"
+    "cross-env": "^7.0.3"
   }
 }
