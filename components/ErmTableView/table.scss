@@ -4,20 +4,33 @@
   height: 16px!important;
 }
 
-::v-deep .v-data-table table thead {
-  background-color: #eee;
+::v-deep .v-data-table table {
+  thead {
+    tr {
+      th {
+        background-color: #eee!important;
 
-  tr {
-    .table__logical-name {
-      width: 16rem;
+        &.table__logical-name {
+          width: 16rem;
+        }
+        &.table__physical-name {
+          width: 16rem;
+        }
+        &.table__description {
+        }
+        &.table__constranit {
+          width: 8rem;
+        }
+      }
     }
-    .table__physical-name {
-      width: 16rem;
-    }
-    .table__description {
-    }
-    .table__constranit {
-      width: 8rem;
+  }
+  tbody {
+    tr {
+      td {
+        button.v-data-table__expand-icon {
+          border: none;
+        }
+      }
     }
   }
 }
