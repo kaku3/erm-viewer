@@ -28,7 +28,8 @@
     tr {
       td {
         button.v-data-table__expand-icon {
-          border: none;
+          padding: 0!important;
+          border: none!important;
         }
       }
     }
